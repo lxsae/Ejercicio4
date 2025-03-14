@@ -1,0 +1,6 @@
+Ejecutar los comandos en el siguiente orden
+
+1.gcc -Wall -O2 -o version1 version1.c
+2.gcc -Wall -O2 -o version2 version2.c
+3.valgrind --tool=cachegrind --cache-sim=yes ./version1
+4.valgrind --tool=cachegrind --cache-sim=yes ./version2
